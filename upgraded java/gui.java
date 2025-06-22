@@ -7,7 +7,7 @@ public class gui {
         JOptionPane.showMessageDialog(null, "Your Name is:= " + name );
         JOptionPane.showMessageDialog(null, "Your Age  is:= " + age );
         JOptionPane.showInternalConfirmDialog(null, "Your Height  is:= " + height );
-        JOptionPane.showConfirmDialog(null, "Your words" );
+     
 
     }
 }
