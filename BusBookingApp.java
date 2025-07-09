@@ -4,7 +4,6 @@ import java.awt.event.*;
 
 public class BusBookingApp extends JFrame implements ActionListener {
 
-    // GUI components
     private JComboBox<String> sourceBox, destinationBox;
     private JTextField dateField;
     private JComboBox<String> seatBox;
@@ -12,13 +11,13 @@ public class BusBookingApp extends JFrame implements ActionListener {
     private JTextArea outputArea;
 
     public BusBookingApp() {
-        // Frame setup
-        setTitle("Bus Booking System");
+        
+        setTitle("Bus Booking System Using Java Gui");
         setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new GridLayout(6, 2, 5, 5));
 
-        // Labels and Fields
+        
         add(new JLabel("From:"));
         sourceBox = new JComboBox<>(new String[] {"Select", "Delhi", "Mumbai", "Bangalore", "Chennai"});
         add(sourceBox);
